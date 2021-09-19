@@ -27,7 +27,6 @@ const Converter = () => {
             const phasor = converter0(state.A, state.B);
             alert(`Las coordenadas polares del fasor ingresado son ${phasor.X} + (${phasor.Y})i`)
         }    
-        location.reload()
     }
     return(
         <div>
